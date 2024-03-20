@@ -2,6 +2,7 @@
   "name": "@yangjianfei/bmaplib.lushu",
   "version": "1.0.0",
   "description": "A library of Baidu Map JS API",
+  "private": false,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +18,12 @@
   ],
   "author": "",
   "license": "MIT",
-  "homepage": "https://github.com/YangJianFei/BMapLib.LuShu/blob/master/README.md"
+  "bugs": {
+    "url": "https://github.com/YangJianFei/BMapLib.LuShu/issues"
+  },
+  "homepage": "https://github.com/YangJianFei/BMapLib.LuShu/blob/master/README.md",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
